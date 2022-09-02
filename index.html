@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https: //fonts.googleapis.com/css2? family= Alumni+Sans+Pinstripe & display=swap" rel="stylesheet"></li>
+</head>
+<body>
+
+    <header>
+        <h1>ENCRIPTADOR</h1>
+    </header>
+
+    <main>
+
+        <section class="ingresoTex">
+          
+            <textarea  class ="input-texto" cols =" 80 " rows =" 20 "  placeholder =" Ingrese el texto aquí "></textarea>
+    
+            <div class="botones">
+
+                <p class="msjAdvertencia">solo letras minusculas y sin acentos </p>
+
+                <button class="BtEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                
+                <button class="BtDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+
+            </div>
+
+        </section >
+        
+        <section class="salida" >
+            <textarea class =" mensajeSalida " cols =" 45 " rows =" 30 "></textarea>
+            <div class="cajaCopiar">
+
+                <button  class ="copiar " onclick ="copiar()" style =" display: block; ">Copiar</button>
+
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer>
+
+        <ul class="datos">
+
+            <li>Proyecto:Encriptador</li>
+            <li>Nombre: Silvio Perez</li>
+            
+        </ul>
+       
+    </footer>
+    <script src="codigoEncriptador.js"></script>
+</body>
+</html>

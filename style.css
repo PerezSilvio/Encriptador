@@ -1,0 +1,200 @@
+
+body{
+    width: 1080px;
+    background-image: url(imagenes/matrix.png);
+    background-size: 65%;
+}
+
+header h1{
+    display: inline;
+    color:rgb(1, 255, 1);
+    margin-left: 80px;
+    text-shadow: 5px 5px 10px rgb(160, 245, 160);
+    
+}
+
+header{
+    margin: 0 0 30px 0;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto{
+    
+    width: auto;
+    margin-top:0;
+    background-color: black;
+    color: rgb(1, 255, 1);
+    text-align: center;
+    font-weight: bolder;
+    border: rgb(1, 255, 1) solid;
+    background-size: 32px;    
+}
+.ingresoTex{
+
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.botones {
+    width: auto;
+    display: inline-block;
+    margin:20 px  auto;
+}
+
+.msjAdvertencia{
+    display: flex; 
+    color:rgb(1, 255, 1) ;
+    text-shadow: 0px 0px 15px rgb(245, 255, 245);
+    font-size: 1.2em;
+    margin-left: 10px;
+        
+}
+
+.msjAdvertencia:before{
+
+    content:"❗";
+
+}
+
+
+.BtEncriptar{
+
+    width: 328px;
+    Padding: 24px;
+    border-radius: 24px;
+    border: rgb(1, 255, 1) solid;
+    background: rgb(4, 4, 7);
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(1, 255, 1);
+    
+}
+
+
+
+.BtDesencriptar{
+
+    width: 328px;
+    Padding: 24px;
+    border-radius: 24px;
+    border: rgb(1, 255, 1) solid;
+    background: rgb(4, 4, 7);
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(1, 255, 1);
+   
+
+
+}
+
+.BtEncriptar:hover,.BtDesencriptar:hover,.copiar:hover{
+
+    transform: scale(1.02);
+}
+
+.mensajeSalida {
+    
+    position: relative;
+    margin-left: 20px;
+    text-align: center;
+    background-repeat:no-repeat;
+    background-image:url(imagenes/calavera.png);
+    background-size: 50%;
+    background-position: center;
+    background-color: rgb(10, 9, 9);
+    color: rgb(1, 255, 1);
+    font-weight: bolder;
+    border: rgb(1, 255, 1) solid
+    
+    
+} 
+
+
+
+.cajaCopiar{
+
+    margin-left: 85px;
+}
+
+.copiar {
+    width: 250px;
+    Padding: 24px;
+    border-radius: 24px;
+    border: rgb(1, 255, 1) solid;
+    background: rgb(4, 4, 7);
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(1, 255, 1);
+    
+ 
+}
+
+.datos{
+
+    color:rgb(1, 255, 1);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: start;
+    text-shadow: 0 0 20px rgb(160, 245, 160);
+
+}
+
+.datos li:before{
+    content: "✱";
+}
+
+
+/*Responsive*/
+@media screen and (max-width:930px){
+    
+     header h1{
+
+       margin-left: 400px;
+    }
+    
+    main{
+
+        display:block;
+        
+    }
+
+    .BtDesencriptar,.BtEncriptar{
+        display: flexblock;
+        width: 30%;
+        margin: 0 0 20px 0
+    }
+
+    .mensajeSalida,.mensajeSalida,.botones,.ingresoTex,.input-texto{
+
+        width: 100%;
+        text-align: center;
+        margin:10px 80px 0 0;
+        
+        
+    }
+
+    .msjAdvertencia{
+
+        margin-left: 250px;
+    }
+
+    .copiar{
+
+        width: 50%;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+   
+    
+ 
+}
+
+  
+    
+    
